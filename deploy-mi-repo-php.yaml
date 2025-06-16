@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: mi-repo-php
+  name: mi-repo-php
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mi-repo-php
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: mi-repo-php
+    spec:
+      containers:
+      - image: docker.io/library/mi-repo-php:latest
+        name: mi-repo-php
+        resources: {}
+status: {}

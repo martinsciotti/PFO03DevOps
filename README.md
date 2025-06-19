@@ -1,6 +1,7 @@
 Práctica Formativa Obligatoria 03 – DevOps | Kubernetes + Minikube
 
 Este proyecto es parte de la entrega de la Práctica Formativa Obligatoria N°3 de la materia DevOps. El objetivo fue familiarizarse con Kubernetes a través de Minikube y deployar una pequeña app web escrita en PHP utilizando contenedores.
+
 ¿Qué incluye?
 
     Un Dockerfile que construye una imagen con PHP y una página simple.
@@ -15,7 +16,7 @@ Tecnologías usadas
 
     Minikube
 
-    Kubernetes (kubectl)
+    Kubernetes
 
 Pasos clave del trabajo
 

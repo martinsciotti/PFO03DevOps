@@ -20,6 +20,6 @@ spec:
       containers:
       - image: app-php-devops:latest
         name: app-php-devops
-        imagePullPolicy: Never  # ← Esta línea es crucial
+        imagePullPolicy: Never  # ← Esta línea es clave
         resources: {}
 status: {}
